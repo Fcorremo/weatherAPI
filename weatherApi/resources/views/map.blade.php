@@ -7,14 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
 <style>
-        /* Estilos CSS personalizados */
+       
         #map {
             height: 80%;
             width: 100%;
         }
         .map-container {
-            max-height: 100px; /* Ajusta la altura máxima según tus necesidades */
-            margin-bottom: 20px; /* Agrega un margen inferior opcional para separar el mapa del footer */
+            max-height: 100px; 
+            margin-bottom: 20px; 
         }
     </style>
   </head>
@@ -100,8 +100,7 @@
                 zoom: 10
             });
 
-            // Aquí puedes agregar el código para obtener los datos del microservicio y mostrarlos en el mapa
-            // Puedes utilizar AJAX u otras técnicas para obtener los datos y mostrarlos en el mapa
+
         }
     </script>
     <script>
@@ -130,7 +129,7 @@
                 });
         }
     
-        // Actualizar la tabla cada 5 segundos (ajusta el intervalo según tus necesidades)
+        // Actualizar la tabla cada 2 segundos (ajusta el intervalo según tus necesidades)
         setInterval(actualizarTabla, 2000);
     </script>
       <footer>

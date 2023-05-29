@@ -65,7 +65,7 @@ public function getCiudades()
 
 public function map()
 {
-    $registros = Historial::all(); // Obtén los registros de la tabla 'historials'
+    $registros = Historial::all(); // Obtener los registros de la tabla 'historials'
     $ciudades = $this->getCiudades();
     return view('map', compact('registros', 'ciudades')); // Pasa los registros a la vista
 }
